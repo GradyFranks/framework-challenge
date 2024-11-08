@@ -1,12 +1,14 @@
+/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #041E42; /* Dark blue background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +17,7 @@ body {
     text-align: center;
 }
 
-
+/* Container styles */
 .container {
     max-width: 600px;
     padding: 20px;
@@ -24,30 +26,36 @@ body {
     border-radius: 8px;
 }
 
+/* Header styles */
 .header {
     font-size: 2.5em;
     font-weight: bold;
     color: #dc3545;
     margin-bottom: 20px;
 }
+
+/* Image placeholder */
 .image-placeholder {
     font-size: 100px;
     color: #e9ecef;
     margin-bottom: 20px;
 }
 
+/* Message styles */
 .message {
     font-size: 1.2em;
     color: #6c757d;
     margin-bottom: 20px;
 }
 
+/* Back link styles */
 .back-link {
     font-size: 1em;
     color: #007bff;
     text-decoration: none;
 }
 
+/* Back link hover effect */
 .back-link:hover {
     text-decoration: underline;
 }
