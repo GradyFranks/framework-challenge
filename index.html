@@ -15,7 +15,7 @@
         /* Body styles */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
+            background-color: #041E42; /* Dark blue background */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -31,6 +31,7 @@
             background-color: #ffffff;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
+            text-align: center;
         }
 
         /* Header styles */
@@ -43,8 +44,6 @@
 
         /* Image placeholder */
         .image-placeholder {
-            font-size: 100px;
-            color: #e9ecef;
             margin-bottom: 20px;
         }
 
@@ -71,7 +70,9 @@
 <body>
     <div class="container">
         <div class="header">404 - Page Not Found</div>
-        <img src="photos/Screen Shot 2024-11-07 at 8.20.23 PM.png" alt="Sad Face" 
+        <div class="image-placeholder">
+            <img src="photos/Screen%20Shot%202024-11-07%20at%208.20.23%20PM.png" alt="Sad Face" style="max-width: 100%; height: auto;">
+        </div>
         <div class="message">Oops! The page you are looking for does not exist.</div>
         <a href="/" class="back-link">Go back to the homepage</a>
     </div>
